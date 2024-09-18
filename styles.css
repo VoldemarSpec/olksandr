@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+body{
+
+
+}
+#wrapper{
+    background: linear-gradient(180deg, rgba(34,38,41,1) 21%, rgba(195,7,63,1) 100%);
+    width: 100vw;
+    height: 100vw;
+}
+
+#yesext{
+color: white;
+font-weight: bold;
+    font-size:120px;
+    position: relative;
+    top: 400px;
+    left: 38%;
+}
+
+
+#btn1{
+    background-color: #222629;
+    width: 15%;
+    height: 3%;
+
+    border-style: solid;
+    border-radius: 35px;
+    border-color: #C3073F;
+    position: relative;
+    top: 25%;
+    left: 32%;
+}
+#text1{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: 1s;
+}
+#btn1:hover{
+    transition: 1s;
+    background-color: white;
+    cursor: pointer;
+}
+#btn2{
+    background-color: #222629;
+    width: 15%;
+    height: 3%;
+
+    border-style: solid;
+    border-radius: 35px;
+    border-color: #C3073F;
+    position: relative;
+    top: 25%;
+    left: 37%;
+}
+
+#text2{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: 1s;
+
+}
+#btn2:hover{
+    transition: 1s;
+    background-color: white;
+    cursor: pointer;
+}
+#question{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 22%;
+    font-size: 40px;
+    left: 41%;
+}
